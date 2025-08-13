@@ -1,9 +1,9 @@
-
-let nome = "Arthorius";
-let xp = 1010;
+// Desafio Felipão - Níveis de XP
+let nome = "Arthur";
+let xp = 2200;
 let nivel = "";
 
-if (xp < 1000) {
+if (xp <= 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
     nivel = "Bronze";
@@ -19,8 +19,6 @@ if (xp < 1000) {
     nivel = "Imortal";
 } else if (xp >= 10001) {
     nivel = "Radiante";
-} else {
-    nivel = "Desconhecido";
 }
 
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
